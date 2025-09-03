@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.contenedor {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contenedor {
+  width: 960px;        
+  margin: 0 auto;
+}
+
+header {
+  background: #222;
+  border-bottom: 4px solid #0ea7d9;
+  padding: 15px 0;
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;            
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+header .azul {
+  color: #0ea7d9;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+header nav a:hover,
+header nav a.activo {
+  color: #0ea7d9;
+}
+
+.boletin {
+  background: #333;
+  color: white;
+  padding: 30px;
+}
+
+.boletin .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 10px;
+}
+
+.boletin input {
+  padding: 8px;
+  border: none;
+}
+
+.boletin button {
+  padding: 10px 15px;
+  border: none;
+  background: orangered;
+  color: white;
+  cursor: pointer;
+}
+
+.principal_contenedor{
+  width: 100%;
+  height: auto;
+  display: flex;
+  font-size: 1.1rem;
+}
+
+.seccion1{
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% -4% 2% 0%;
+}
+
+.seccion1 article{
+  width: 70%;
+  height: auto;
+  margin-top: 2%;
+  line-height: 1.4;
+}
+
+.seccion1 article img{
+  width: 100%;
+  height: auto;
+}
+
+.seccion1 article h2{
+  margin-bottom: 1%;
+}
+
+.seccion1 .resaltado{
+  background-color: #2f3b42;
+  color: #fff;
+  padding: 1%;
+  text-align: justify;
+}
+
+aside{
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+}
+
+aside article{
+  width: 60%;
+  height: auto;
+  background: #2f3b42;
+  color: #fff;
+  padding: 6% 3% 6% 3%;
+  margin: 6% 0% 0% 0%;
+}
+
+aside article h3{
+  margin-bottom: 2%;
+}
+
+footer{
+  background: deepskyblue;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  margin-top: 25px;
+}

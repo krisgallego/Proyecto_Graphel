@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.contenedor {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contenedor {
+  width: 960px;        
+  margin: 0 auto;
+}
+
+header {
+  background: #222;
+  border-bottom: 4px solid #0ea7d9;
+  padding: 15px 0;
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;          
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+header .azul {
+  color: #0ea7d9;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+header nav a:hover,
+header nav a.activo {
+  color: #0ea7d9;
+}
+
+.cabecera {
+  position: relative;
+  background: url("../assets/imagenes/cabecera.jpg") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.cabecera img {
+  display: none;
+}
+
+.cabecera h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.cabecera p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.boletin {
+  background: #333;
+  color: white;
+  padding: 30px;
+}
+
+.boletin .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boletin h3 {
+  margin: 0;
+}
+
+.boletin input {
+  padding: 8px;
+  border: none;
+}
+
+.boletin button {
+  padding: 10px 15px;
+  border: none;
+  background: orangered;
+  color: white;
+  cursor: pointer;
+}
+
+.logos {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.logos .contenedor {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+}
+
+.logos .caja {
+  flex: 1;
+  margin: 20px;
+  max-width: 300px;
+}
+
+.logos img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.logos h4 {
+  margin-bottom: 15px;
+}
+
+.logos p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+footer {
+  background: deepskyblue;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  margin-top: 5px;
+}
